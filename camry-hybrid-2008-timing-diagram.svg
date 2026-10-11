@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" width="800" height="760" font-family="Arial, Tahoma, sans-serif">
+  <rect width="800" height="760" fill="#ffffff"/>
+  <text x="400" y="36" font-size="22" font-weight="bold" text-anchor="middle">مخطط توضيحي لعلامات التايمنج - كامري هايبريد 2008 (2AZ-FXE)</text>
+  <text x="400" y="62" font-size="14" text-anchor="middle" fill="#b00020">رسم تقريبي للشرح فقط - ليس مرجعًا رسميًا. راجع دليل Toyota الرسمي قبل أي فك أو تركيب</text>
+  <text x="400" y="84" font-size="13" text-anchor="middle" fill="#555">منظر أمامي (من جهة السلسلة) - مواقع الأجزاء تقريبية</text>
+
+  <!-- chain path -->
+  <path d="M 250 200 L 550 200 L 400 580 Z" fill="none" stroke="#444" stroke-width="5" stroke-linejoin="round" stroke-dasharray="14 4"/>
+
+  <!-- tensioner side guide -->
+  <path d="M 575 215 Q 520 400 425 560" fill="none" stroke="#888" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+  <text x="600" y="400" font-size="14" fill="#555">دليل السلسلة</text>
+  <text x="600" y="420" font-size="14" fill="#555">وجهاز الشد (Tensioner)</text>
+
+  <!-- Intake VVT sprocket -->
+  <circle cx="250" cy="200" r="62" fill="#e8f0fe" stroke="#1a56c4" stroke-width="4"/>
+  <circle cx="250" cy="200" r="14" fill="#1a56c4"/>
+  <circle cx="250" cy="142" r="7" fill="#d00000"/>
+  <text x="250" y="288" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a56c4">ترس كامة الدخول (VVT-i)</text>
+  <text x="250" y="310" font-size="13" text-anchor="middle" fill="#1a56c4">علامة الترس = الوصلة الملونة #2</text>
+
+  <!-- Exhaust sprocket -->
+  <circle cx="550" cy="200" r="55" fill="#fff3e0" stroke="#e65100" stroke-width="4"/>
+  <circle cx="550" cy="200" r="14" fill="#e65100"/>
+  <circle cx="550" cy="147" r="7" fill="#d00000"/>
+  <text x="550" y="278" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">ترس كامة العادم</text>
+  <text x="550" y="300" font-size="13" text-anchor="middle" fill="#e65100">علامة الترس = الوصلة الملونة #3</text>
+
+  <!-- Crank sprocket -->
+  <circle cx="400" cy="580" r="42" fill="#e8f5e9" stroke="#2e7d32" stroke-width="4"/>
+  <circle cx="400" cy="580" r="11" fill="#2e7d32"/>
+  <circle cx="400" cy="538" r="7" fill="#d00000"/>
+  <text x="400" y="650" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">ترس الكرنك</text>
+  <text x="400" y="672" font-size="13" text-anchor="middle" fill="#2e7d32">علامة الترس = الوصلة الملونة #1</text>
+
+  <!-- colored links -->
+  <rect x="238" y="127" width="24" height="12" rx="3" fill="#ffc107" stroke="#7a5b00"/>
+  <rect x="538" y="132" width="24" height="12" rx="3" fill="#ffc107" stroke="#7a5b00"/>
+  <rect x="388" y="522" width="24" height="12" rx="3" fill="#ffc107" stroke="#7a5b00"/>
+
+  <!-- legend -->
+  <rect x="40" y="690" width="720" height="58" rx="8" fill="#f5f5f5" stroke="#ccc"/>
+  <rect x="58" y="703" width="22" height="11" rx="3" fill="#ffc107" stroke="#7a5b00"/>
+  <text x="90" y="713" font-size="14">وصلة ملونة (ذهبية/صفراء) - 3 وصلات على السلسلة</text>
+  <circle cx="64" cy="734" r="6" fill="#d00000"/>
+  <text x="90" y="739" font-size="14">علامة التايمنج على الترس (يجب أن تنطبق على الوصلة الملونة)</text>
+  <text x="780" y="713" font-size="13" text-anchor="end" fill="#555">قبل البدء: سلندر 1 على TDC / انضغاط</text>
+  <text x="780" y="739" font-size="13" text-anchor="end" fill="#555">دوّر الكرنك باتجاه عقارب الساعة فقط</text>
+</svg>
